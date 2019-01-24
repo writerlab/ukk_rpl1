@@ -16,3 +16,7 @@
 ## IMPLEMENTASI
 * pecah struktur index ✅
 * buat ruouting ✅
+*To do*
+* konfigurasi database (koneksi) ❌
+* login ❌
+* logout ❌
