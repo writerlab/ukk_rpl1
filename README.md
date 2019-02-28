@@ -18,9 +18,19 @@
 * buat ruouting ✅
 *To do*
 [x] konfigurasi database (koneksi)
+---
 [x] login
 [x] logout
 [x] Inventarisir
     [x] Jenis
     [x] Ruang
     [x] Inventaris
+    [x] Pegawai
+
+[ ] Transaksi
+    [ ] Peminjaman
+    [ ] Penjemputan
+
+[ ] Laporan
+    [ ] Inventaris
+    [ ] Peminjaman
