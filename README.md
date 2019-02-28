@@ -19,4 +19,8 @@
 *To do*
 [x] konfigurasi database (koneksi)
 [x] login
-[ ] logout
+[x] logout
+[x] Inventarisir
+    [x] Jenis
+    [x] Ruang
+    [x] Inventaris
