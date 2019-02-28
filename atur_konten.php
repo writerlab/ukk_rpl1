@@ -1,8 +1,17 @@
 <?php
 
-if ($_GET['menu'] == dashboard) {
-  print "<h1>ini halaman dashboard</h1>";
+if ($_GET['menu'] == 'home') {
+  include('konten/home.php');
 }
-elseif ($_GET['menu'] == inventaris) {
-  print "<h1>INVENTARIS...</h1>";
+elseif ($_GET['menu'] == 'sonia') {
+  print "halo aku sonia";
+}
+elseif ($_GET['menu'] == 'inventaris') {
+  include('konten/inventaris.php');
+}
+elseif ($_GET['menu'] == 'peminjaman') {
+  include('konten/peminjaman.php');
+}
+elseif ($_GET['menu'] == 'logout') {
+  include('konten/logout.php');
 }

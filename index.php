@@ -1,6 +1,12 @@
 <?php
+session_start();
+include('koneksi.php');
 include('konten/header.html');
-include('konten/nav.html'); ?>
+
+if (empty($_SESSION['user'])) {
+  include('konten/login.php');
+} else {
+  include('konten/nav.html'); ?>
 
     <div id="wrapper">
 
@@ -17,6 +23,7 @@ include('konten/nav.html'); ?>
       <!-- /.content-wrapper -->
     </div>
     <!-- /#wrapper -->
+<?php } ?>
 
 <?php
 include('konten/footer.html'); ?>

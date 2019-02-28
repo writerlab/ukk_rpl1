@@ -17,6 +17,6 @@
 * pecah struktur index ✅
 * buat ruouting ✅
 *To do*
-* konfigurasi database (koneksi) ❌
-* login ❌
-* logout ❌
+[x] konfigurasi database (koneksi)
+[x] login
+[ ] logout
